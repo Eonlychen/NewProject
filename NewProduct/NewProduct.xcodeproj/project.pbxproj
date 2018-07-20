@@ -29,6 +29,7 @@
 		329963CD2100755D00213BAF /* TLDeallocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 329963CC2100755D00213BAF /* TLDeallocTask.m */; };
 		329963D0210075D600213BAF /* NSObject+KVOBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 329963CF210075D600213BAF /* NSObject+KVOBlock.m */; };
 		329963D32100761900213BAF /* NSObject+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 329963D22100761900213BAF /* NSObject+Reflection.m */; };
+		329964762101C24400213BAF /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 329964752101C24400213BAF /* UIButton+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,9 @@
 		329963CF210075D600213BAF /* NSObject+KVOBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOBlock.m"; sourceTree = "<group>"; };
 		329963D12100761900213BAF /* NSObject+Reflection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Reflection.h"; sourceTree = "<group>"; };
 		329963D22100761900213BAF /* NSObject+Reflection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Reflection.m"; sourceTree = "<group>"; };
+		329964742101C24400213BAF /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		329964752101C24400213BAF /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		329964772101C6C900213BAF /* CHCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCategoryHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +127,12 @@
 		3299639E2100605400213BAF /* CHCategory */ = {
 			isa = PBXGroup;
 			children = (
+				329964772101C6C900213BAF /* CHCategoryHeader.h */,
 				329963C4210073B000213BAF /* NSObject */,
 				3299639F210060B500213BAF /* NSString */,
 				329963AA2100634700213BAF /* NSData */,
 				329963BD210070B600213BAF /* NSDate */,
+				329964732101C21F00213BAF /* UIButton */,
 			);
 			path = CHCategory;
 			sourceTree = "<group>";
@@ -189,6 +195,15 @@
 				329963D22100761900213BAF /* NSObject+Reflection.m */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		329964732101C21F00213BAF /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				329964742101C24400213BAF /* UIButton+Extension.h */,
+				329964752101C24400213BAF /* UIButton+Extension.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +281,7 @@
 				3299639821005FA300213BAF /* main.m in Sources */,
 				329963B62100666900213BAF /* NSString+Hash.m in Sources */,
 				329963CA2100740F00213BAF /* NSObject+Dealloc.m in Sources */,
+				329964762101C24400213BAF /* UIButton+Extension.m in Sources */,
 				329963B9210067B900213BAF /* NSString+NormalRegex.m in Sources */,
 				329963C0210070D600213BAF /* NSDate+Extensions.m in Sources */,
 				329963C3210070FE00213BAF /* NSDate+Relation.m in Sources */,
