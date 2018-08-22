@@ -126,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				3202D113212DA4CA00BEBCA1 /* Common */,
+				3202D115212DA5AD00BEBCA1 /* Protocol */,
 				3299639E2100605400213BAF /* Category */,
 				3202D112212DA4A500BEBCA1 /* Manager */,
 				3202D114212DA4D600BEBCA1 /* Runtime */,
@@ -159,6 +160,13 @@
 			children = (
 			);
 			path = Runtime;
+			sourceTree = "<group>";
+		};
+		3202D115212DA5AD00BEBCA1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		3299637C21005FA100213BAF = {
