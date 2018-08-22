@@ -91,11 +91,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3202D10C212DA41400BEBCA1 /* CHModule */ = {
+			isa = PBXGroup;
+			children = (
+				3202D10D212DA42D00BEBCA1 /* Model */,
+				3202D10E212DA43700BEBCA1 /* View */,
+				3202D10F212DA44400BEBCA1 /* Controller */,
+			);
+			path = CHModule;
+			sourceTree = "<group>";
+		};
+		3202D10D212DA42D00BEBCA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3202D10E212DA43700BEBCA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3202D10F212DA44400BEBCA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3202D110212DA45F00BEBCA1 /* CHUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3202D113212DA4CA00BEBCA1 /* Common */,
+				3299639E2100605400213BAF /* Category */,
+				3202D112212DA4A500BEBCA1 /* Manager */,
+				3202D114212DA4D600BEBCA1 /* Runtime */,
+			);
+			path = CHUtil;
+			sourceTree = "<group>";
+		};
+		3202D111212DA48E00BEBCA1 /* CHResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CHResources;
+			sourceTree = "<group>";
+		};
+		3202D112212DA4A500BEBCA1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3202D113212DA4CA00BEBCA1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3202D114212DA4D600BEBCA1 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
 		3299637C21005FA100213BAF = {
 			isa = PBXGroup;
 			children = (
 				3299638721005FA100213BAF /* NewProduct */,
-				3299639E2100605400213BAF /* CHCategory */,
 				3299638621005FA100213BAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +184,9 @@
 				3299638921005FA100213BAF /* AppDelegate.m */,
 				3299638B21005FA100213BAF /* ViewController.h */,
 				3299638C21005FA100213BAF /* ViewController.m */,
+				3202D10C212DA41400BEBCA1 /* CHModule */,
+				3202D110212DA45F00BEBCA1 /* CHUtil */,
+				3202D111212DA48E00BEBCA1 /* CHResources */,
 				3299638E21005FA100213BAF /* Main.storyboard */,
 				3299639121005FA300213BAF /* Assets.xcassets */,
 				3299639321005FA300213BAF /* LaunchScreen.storyboard */,
@@ -124,7 +196,7 @@
 			path = NewProduct;
 			sourceTree = "<group>";
 		};
-		3299639E2100605400213BAF /* CHCategory */ = {
+		3299639E2100605400213BAF /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				329964772101C6C900213BAF /* CHCategoryHeader.h */,
@@ -134,7 +206,7 @@
 				329963BD210070B600213BAF /* NSDate */,
 				329964732101C21F00213BAF /* UIButton */,
 			);
-			path = CHCategory;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		3299639F210060B500213BAF /* NSString */ = {
