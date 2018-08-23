@@ -21,8 +21,6 @@
     UIButton *testButton = [[UIButton alloc] initWithFrame:CGRectMake(50, 50, 50, 50)];
     testButton.backgroundColor = [UIColor redColor];
     [self.view addSubview:testButton];
-//============
-//   --- ----------
     [testButton addTouchUpInsideAction:^(UIButton *sender) {
         NSLog(@"sender");
     }];
