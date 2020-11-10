@@ -24,6 +24,7 @@
     [testButton addTouchUpInsideAction:^(UIButton *sender) {
         NSLog(@"sender123");
         NSLog(@"master");
+        NSLog(@"master1");
     }];
 }
 
