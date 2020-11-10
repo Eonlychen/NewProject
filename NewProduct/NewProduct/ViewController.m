@@ -23,6 +23,7 @@
     [self.view addSubview:testButton];
     [testButton addTouchUpInsideAction:^(UIButton *sender) {
         NSLog(@"sender123");
+        NSLog(@"master");
     }];
 }
 
